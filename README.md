@@ -14,6 +14,7 @@ A simple sound box. With this project you can create fastly your own sound box. 
 ## RoadMap
 
 - [x] Grid view with img and title
+- [x] Splash screen
 - [x] Play a sound
 - [ ] Fav a sound
 - [ ] Sort sounds
@@ -55,7 +56,7 @@ And that's all ;)
 ## Dependency
 
 | Name        | Description| Repo |
-| ------------------ |:-------------:| -----:|
+| ------------------ |-------------| ----- |
 | audioplayers       | Plugin to work with sound easly | https://github.com/luanpotter/audioplayers |
 | splashscreen       | Easy way to create a splash screen | https://github.com/KarimMohamed2005/SplashScreenFlutterPackage |
 
