@@ -4,6 +4,10 @@
 
 A simple sound box. With this project you can create fastly your own sound box. Just clone this repo and add your sound into the assets folder. After just init your data into the *sounds* file. It's easy to use and fun :D
 
+## Example 
+
+![example](https://raw.githubusercontent.com/EmilienLeroy/FlutterSoundBox/master/assets/example.gif)
+
 ## RoadMap
 
 - [x] Grid view with img and title
