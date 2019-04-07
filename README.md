@@ -6,7 +6,10 @@ A simple sound box. With this project you can create fastly your own sound box. 
 
 ## Example 
 
-![example](https://raw.githubusercontent.com/EmilienLeroy/FlutterSoundBox/master/assets/example.gif)
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/EmilienLeroy/FlutterSoundBox/master/assets/example.gif">
+</p>
+
 
 ## RoadMap
 
@@ -20,16 +23,42 @@ A simple sound box. With this project you can create fastly your own sound box. 
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+First clone the project :
 
-A few resources to get you started if this is your first Flutter project:
+```
+git clone https://github.com/EmilienLeroy/FlutterSoundBox.git
+```
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+> Add your sound and image into the assets folder.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+After just init your sound into the lib/data/sounds.dart file like this :
+
+```dart
+final List<Sound> sounds = [
+  new Sound(
+    title: "title",
+    subtitle: "subtitle",
+    img: new AssetImage("assets/image.jpg"),
+    soundUrl: 'sounf.mp3'
+  ),
+  new Sound(
+      title: "title 2",
+      subtitle: "subtitle 2",
+      img: new AssetImage("assets/image2.jpg"),
+      soundUrl: 'image2.mp3'
+  )
+];
+```
+
+And that's all ;)
+
+## Dependency
+
+| Name        | Description| Repo |
+| ------------------ |:-------------:| -----:|
+| audioplayers       | Plugin to work with sound easly | https://github.com/luanpotter/audioplayers |
+| splashscreen       | Easy way to create a splash screen | https://github.com/KarimMohamed2005/SplashScreenFlutterPackage |
+
 
 ## Contribute
 
