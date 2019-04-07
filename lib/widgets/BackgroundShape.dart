@@ -14,7 +14,7 @@ class BackgroundShape extends CustomPainter {
     // draw the rectangle using the paint
     canvas.drawRect(rect, paint);
 
-    paint.color = Colors.orangeAccent;
+    paint.color = Color(0xfff08114);
 
     // create a path
     var path = Path();

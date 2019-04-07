@@ -8,9 +8,9 @@ class App extends StatelessWidget {
     //generate a material app
     return new MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Test',
+      title: 'DBZ QUEBECOIS',
       theme: new ThemeData(
-        primaryColor: Colors.black,
+        primaryColor: Color(0xfff08114),
       ),
       home: new HomeScreen(),
       routes: <String, WidgetBuilder>{

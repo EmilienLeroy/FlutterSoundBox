@@ -16,20 +16,19 @@ class HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
     return new Scaffold(
         appBar: new AppBar(
             elevation: 0,
-            title: Text('DBS',style: TextStyle(
+            title: Text('DBZ QUEBECOIS',style: TextStyle(
                 color: Colors.white,
                 fontSize: 30,
                 fontWeight: FontWeight.bold,
                 shadows:
                 [
-                  new Shadow(color: Colors.black, offset: new Offset(1, 2), blurRadius: 5)
+                  new Shadow(color: Colors.black45, offset: new Offset(1, 2), blurRadius: 5)
                 ]
             )),
             centerTitle: true,
-            backgroundColor: Colors.orangeAccent,
+            backgroundColor: Color(0xfff08114),
             automaticallyImplyLeading: false
         ),
-        backgroundColor: Colors.deepOrangeAccent,
         body:  CustomPaint(
           painter: BackgroundShape(),
           child: new Container(
