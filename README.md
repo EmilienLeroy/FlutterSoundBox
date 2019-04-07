@@ -29,7 +29,7 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Contribute
 
-We would love you for the contribution to ``Swapi Quizz`` project, check the ``LICENSE`` file for more info.
+We would love you for the contribution to ``Flutter Sound Box`` project, check the ``LICENSE`` file for more info.
 
 
 ## License
