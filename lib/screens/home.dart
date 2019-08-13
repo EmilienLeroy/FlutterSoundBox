@@ -16,7 +16,7 @@ class HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
     return new Scaffold(
         appBar: new AppBar(
             elevation: 0,
-            title: Text('DBZ QUEBECOIS',style: TextStyle(
+            title: Text('Sekai Uchiha',style: TextStyle(
                 color: Colors.white,
                 fontSize: 30,
                 fontWeight: FontWeight.bold,
@@ -26,7 +26,7 @@ class HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                 ]
             )),
             centerTitle: true,
-            backgroundColor: Color(0xfff08114),
+            backgroundColor: Color(0xffbc0000),
             automaticallyImplyLeading: false
         ),
         body:  CustomPaint(
