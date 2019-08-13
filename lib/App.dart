@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_sound_box/screens/home.dart';
+import 'package:SekaiUchiha/screens/home.dart';
 import 'package:splashscreen/splashscreen.dart';
 
 //main class

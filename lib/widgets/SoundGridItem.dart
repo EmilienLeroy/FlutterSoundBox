@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sound_box/models/Sound.dart';
+import 'package:SekaiUchiha/models/Sound.dart';
 
 //grid item for the main grid view
 class SoundGridItem extends StatelessWidget
@@ -30,7 +30,7 @@ class SoundGridItem extends StatelessWidget
               end: Alignment.topLeft,
               stops: [0.1, 0.9],
               colors: [
-                Color(0xffff9800),
+                Color(0xffbc0000),
                 Color(0xffffffff),
               ],
             ),

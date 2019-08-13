@@ -1,4 +1,4 @@
-name: flutter_sound_box
+name: SekaiUchiha
 description: A simple sound box
 
 # The following defines the version and build number for your application.
@@ -25,10 +25,19 @@ dependencies:
   cupertino_icons: ^0.1.2
   audioplayers: ^0.10.1
   splashscreen:
+  flutter_launcher_icons: ^0.7.0
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/accord.jpg"
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+dependency_overrides:
+  image: 2.0.7
 
 
 # For information on the generic Dart part of this file, see the

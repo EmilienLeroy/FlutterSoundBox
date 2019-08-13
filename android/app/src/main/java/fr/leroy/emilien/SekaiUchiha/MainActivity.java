@@ -1,4 +1,4 @@
-package fr.leroy.emilien.flutter_sound_box;
+package fr.leroy.emilien.SekaiUchiha;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;

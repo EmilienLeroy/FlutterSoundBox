@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sound_box/widgets/BackgroundShape.dart';
-import 'package:flutter_sound_box/widgets/SoundGridItem.dart';
-import 'package:flutter_sound_box/data/sounds.dart';
+import 'package:SekaiUchiha/widgets/BackgroundShape.dart';
+import 'package:SekaiUchiha/widgets/SoundGridItem.dart';
+import 'package:SekaiUchiha/data/sounds.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
