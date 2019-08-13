@@ -30,7 +30,7 @@ dependencies:
 flutter_icons:
   android: true
   ios: false
-  image_path: "assets/accord.jpg"
+  image_path: "assets/icon02.png"
 
 dev_dependencies:
   flutter_test:
